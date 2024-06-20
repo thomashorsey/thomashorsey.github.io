@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About - Thomas Horsey</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header id="page-header">
+            <nav id="dropdown-menu">
+                <section id="top-row">
+                    <h2><a href="index.html">Thomas Horsey</a></h2>
+                    <h2><a onclick=hideDropdown() href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></h2>
+                </section>
+                <ul>
+                    <li><h2><a href="about.html">About</a></h2></li>
+                    <li><h2><a href="projects.html">Projects</a></h2></li>
+                    <li><h2><a href="contact.html">Contact</a></h2></li>
+                </ul>
+            </nav>
+
+            <nav id="navbar-menu">
+                <h2><a href="index.html">Thomas Horsey</a></h2>
+                <ul>
+                    <li class="hide-on-mobile"><h2><a href="about.html">About</a></h2></li>
+                    <li class="hide-on-mobile"><h2><a href="projects.html">Projects</a></h2></li>
+                    <li class="hide-on-mobile"><h2><a href="contact.html">Contact</a></h2></li>
+                    <li class="hide-on-laptop" onclick=showDropdown()><h2><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></h2></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="horizontal-line"></section>
+
+        <main>
+            <section id="about">
+                <section id="about-me">
+                    <h1>About Me</h1>
+                    <section id="about-me-info">
+                        <img src="images/headshot.jpg" alt="Headshot">
+                        <section>
+                            <p>I'm Thomas, a software developer with a strong foundation in computer science and data science. I thrive on problem-solving challenges and constantly seek out new opportunities for growth.</p>
+                            <p>In my career so far, I've had the pleasure of collaborating with a diverse range of clients and teams, bringing my technical expertise and enthusiasm to every project.</p>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="horizontal-line"></section>
+
+                <section id="experiences">
+                    <h1>Experience</h1>
+                    <article class="experience">
+                        <section class="company">
+                            <img src="images/deloitte-logo.jpeg" alt="Deloitte Logo">
+                            <h2>Deloitte</h2>
+                        </section>
+                        <p>ServiceNow Developer Intern <i>(Nov 2023 - Dec 2023)</i></p>
+                        <p>Developed bespoke web and mobile application to enhance efficiency through the automation of various processes.</p>  
+                    </article>
+
+                    <article class="experience">
+                        <section class="company">
+                            <img src="images/startmate-logo.jpeg" alt="Startmate Logo">
+                            <h2>Startmate</h2>
+                        </section>
+                        <p>Student Fellow <i>(Nov 2023 - Dec 2023)</i></p>
+                        <p>Built fundamental understandings of the startup ecosystem through hands on workshops and activities.</p>
+                    </article>
+
+                    <article class="experience">
+                        <section class="company">
+                            <img src="images/rsl-logo.jpeg" alt="RSL Logo">
+                            <h2>Redlands RSL</h2>
+                        </section>
+                        <p>Bar and Events Attendant <i>(Nov 2018 - Present)</i></p>
+                        <p>Provided exceptional customer service and maintained a safe environment. 1st place 2022 Cocktail competition.</p>
+                    </article>
+                </section>
+
+                <section class="horizontal-line"></section>
+
+                <section id="education">
+                        <h1>Education</h1>
+                        <article class="experience">
+                            <section class="company">
+                                <img src="images/uq-logo.jpeg" alt="UQ Logo">
+                                <h2>The University of Queensland</h2>
+                            </section>
+                            <p>Bachelor of Computer Science <i>(Jul 2022 - Present)</i></p>
+                            <p>Major in Data Science.</p>
+                        </article>
+                </section>
+
+                <section class="horizontal-line"></section>
+
+                <section id="skills">
+                    <h1>Skills</h1>
+                    <section id="skills-info">
+                        <figure id="stack-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 22 22">
+                                <path d="m2.394 15.759s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm0-3.113s7.554 4.246 9.09 5.109c.165.093.333.132.492.132.178 0 .344-.049.484-.127 1.546-.863 9.155-5.113 9.155-5.113.246-.138.385-.393.385-.656 0-.566-.614-.934-1.116-.654 0 0-7.052 3.958-8.539 4.77-.211.115-.444.161-.722.006-1.649-.928-8.494-4.775-8.494-4.775-.502-.282-1.117.085-1.117.653 0 .262.137.517.382.655zm10.271-9.455c-.246-.128-.471-.191-.692-.191-.223 0-.443.065-.675.191l-8.884 5.005c-.276.183-.414.444-.414.698 0 .256.139.505.414.664l8.884 5.006c.221.133.447.203.678.203.223 0 .452-.065.689-.203l8.884-5.006c.295-.166.451-.421.451-.68 0-.25-.145-.503-.451-.682zm-8.404 5.686 7.721-4.349 7.72 4.349-7.72 4.35z" fill-rule="nonzero"/>
+                            </svg>
+                        </figure>
+                        <section>
+                            <h2>Frontend</h2>
+                            <p>HTML, CSS, Javascript</p>
+                            <h2>Backend</h2>
+                            <p>Java, C, Python</p>
+                            <h2>Databases</h2>
+                            <p>SQL</p>
+                            <h2>Tools</h2>
+                            <p>Git, Linux, Subversion, Vim</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+
+        <section class="horizontal-line"></section>
+
+        <footer id="page-footer">
+            <nav id="footer-menu">
+                <section>
+                    <section class="color-scheme-switch">
+                        <label class="switch">
+                            <input type="checkbox" id="colorSchemeToggle">
+                            <span class="slider round"></span>
+                        </label>
+                    </section>
+                    <h2><a href="index.html">Thomas Horsey</a></h2>
+                    <p>© 2024 Thomas Horsey</p>
+                </section>
+                <ul>
+                    <li><p><a href="about.html">About</a></p></li>
+                    <li><p><a href="projects.html">Projects</a></p></li>
+                    <li><p><a href="contact.html">Contact</a></p></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
