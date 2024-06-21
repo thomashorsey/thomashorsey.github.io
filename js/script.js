@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             } 
         }
         // Define string to be typed out
-        var dataText = "Hello! I'm Thomas, a Software Developer from Brisbane.";
+        var dataText = "Hello! I'm Tom, a Software Developer from Brisbane.";
         // Start the typing animation
         typingAnimation(dataText, 0, null);
     }
