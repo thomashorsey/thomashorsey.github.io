@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /* Typing animation */
 
 document.addEventListener('DOMContentLoaded', function(event) {
-    var suffixes = ["tomhorsey.com", "index", "index.html"]
-    if (window.location.pathname.endsWithAny(str, suffixes)) {
+    if (window.location.pathname.endsWith("index.html")) {
         // Types out text, calling self until the text is finished
         function typingAnimation(text, i, fnCallback) {
             // Check if there are characters left to type
