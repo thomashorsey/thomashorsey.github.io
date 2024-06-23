@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var navLinks = document.querySelectorAll("#navbar-menu a, #dropdown-menu a");
 
     navLinks.forEach(function(link) {
-        if (currentPage !== "" && link.getAttribute("href").includes(currentPage)) {
+        if (currentPage != "" && link.getAttribute("href").includes(currentPage)) {
             link.classList.add("current-page");
         }
     });
