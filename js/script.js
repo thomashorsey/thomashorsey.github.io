@@ -15,7 +15,6 @@ function hideDropdown() {
 document.addEventListener("DOMContentLoaded", function() {
     // Get the current page name
     var currentPage = window.location.pathname.split("/").pop();
-    currentPage += ".html"
 
     // Get the navigation bar names to check against
     var navLinks = document.querySelectorAll("#navbar-menu a, #dropdown-menu a");
