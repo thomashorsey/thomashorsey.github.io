@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /* Typing animation */
 
 document.addEventListener('DOMContentLoaded', function(event) {
-    if (window.location.pathname.endsWith("index.html")) {
+    if (window.location.pathname.endsWith("index")) {
         // Types out text, calling self until the text is finished
         function typingAnimation(text, i, fnCallback) {
             // Check if there are characters left to type
