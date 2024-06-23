@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /* Typing animation */
 
 document.addEventListener('DOMContentLoaded', function(event) {
-    if (window.location.pathname.endsWith("index") || (window.location.pathname.endsWith("tomhorsey.com"))) {
+    if (window.location.pathname.endsWith("index") || window.location.pathname === "/") {
         function typingAnimation(text, i, fnCallback) {
             if (i < (text.length)) {
                 document.getElementById("typing-animation").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
