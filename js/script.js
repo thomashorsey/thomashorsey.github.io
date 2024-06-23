@@ -16,10 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var currentPage = window.location.pathname.split("/").pop();
     var navLinks = document.querySelectorAll("#navbar-menu a, #dropdown-menu a");
 
-    if (currentPage === "") {
-        currentPage = "index";
-    }
-
     navLinks.forEach(function(link) {
         if (link.getAttribute("href").includes(currentPage)) {
             link.classList.add("current-page");
